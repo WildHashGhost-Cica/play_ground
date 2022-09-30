@@ -31,10 +31,11 @@ fn main(){
     let p = 5;
 
     match p {
-        n @ 1..=12 => println!("n: {}", n),
-        n @ 13..=19 => println!("n: {}", n),
+        o @ 1..=12 => println!("n: {}", o),
+        o @ 13..=19 => println!("n: {}", o),
         _ => println!("no match")
     }
+
 
     
     
