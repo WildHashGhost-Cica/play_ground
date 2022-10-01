@@ -4,7 +4,7 @@ fn main(){
     let mut hm = HashMap::new();
 
     hm.insert(String::from("random"), 12);
-    hm.insert(String::from("string"), 49);;
+    hm.insert(String::from("string"), 49);
     //remove string
     hm.remove(&String::from("string"));
 
