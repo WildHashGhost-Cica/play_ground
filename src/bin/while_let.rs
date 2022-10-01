@@ -18,5 +18,13 @@ fn main(){
         }
     }*/
 
-    
+    while let Some(i) = n {
+        if i > 19 {
+            println!("Quit");
+            n = None;
+        }else {
+            println!("{}",i);
+            n = Some(i+2);
+        }
+    }
 }
