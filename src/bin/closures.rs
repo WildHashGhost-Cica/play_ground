@@ -7,7 +7,7 @@ fn main(){
     f(x);
     println!("{}", f(x));
 
-    let p = || println!("this is cosure");
+    let p = || println!("this is closure");
     //run p
     p();
 }
